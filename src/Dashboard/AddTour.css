@@ -1,0 +1,104 @@
+.edit-user-wrapper{
+    background: rgba(63, 63, 63, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    height: 200vh;
+    align-items: center;
+  }
+  .form-user{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    width: 500px;
+    padding: 40px 50px;
+    position: relative;
+    background-color: white;
+  }
+  .form-user input[type=text]{
+    padding: 10px;
+    border: 1px solid lightgray;
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  .form-user input[type=email]{
+    padding: 10px;
+    border: 1px solid lightgray;
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  .form-user input[type=file]{
+    padding: 10px;
+    border: 1px solid lightgray;
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  .form-user input[type=date]{
+    padding: 10px;
+    border: 1px solid lightgray;
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  .form-user select{
+    padding: 10px;
+    border: 1px solid lightgray;
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  .fa-times{
+    right: 10px;
+    top: 2px;
+    position: absolute;
+    font-size: 20px;
+  }
+.button-edit-cancel{
+  display: flex;
+  justify-content: space-between;
+}
+.btn-submit-edit{
+  background: dodgerblue;
+  color: white;
+  padding: 8px;
+  outline: 0;
+border: 0;
+border-radius: 4px;
+}
+.btn-cancel-edit{
+  background: crimson;
+  color: white;
+  padding: 4px;
+  outline: 0;
+border: 0;
+border-radius: 7px;
+}
+.delete-user-top{
+  margin: 30px 20px;
+}
+.delete-user-top h1{
+font-size: 15px;
+text-transform: capitalize;
+}
+.span-delete{
+  font-weight: bold;
+}
+.btn-add-1{
+  padding: 1px 10px;
+  border: 1px solid lightgray ;
+  background: var(--yellow-color);
+  color: white;
+  border-radius: 7px;
+  font-size: 12px;
+  height: 35px;
+}
+.tour__title{
+  color:black;
+  /* margin-top:10px; */
+  margin-bottom: 20px;
+  text-align: center;
+}
